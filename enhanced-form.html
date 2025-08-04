@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="HTML5 assignment showcasing lists, tables, media, and a user-friendly form with native validation." />
+  <title>Enhanced HTML5 Form & Content</title>
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header>
+    <h1>Welcome to Wendy's HTML5 Showcase</h1>
+    <p>This page demonstrates the use of lists, tables, media, and forms using semantic HTML5.</p>
+  </header>
+
+  <!-- List Section -->
+  <section>
+    <h2>My Favorite Programming Languages</h2>
+    <ol>
+      <li>Python</li>
+      <li>Java</li>
+      <li>JavaScript</li>
+    </ol>
+
+    <h3>Web Development Skills</h3>
+    <ul>
+      <li>HTML5</li>
+      <li>CSS3</li>
+    </ul>
+  </section>
+
+  <!-- Table Section -->
+  <section>
+    <h2>Timetable</h2>
+    <table border="1">
+      <thead>
+        <tr>
+          <th>Day</th>
+          <th>Subject</th>
+          <th>Time</th>
+          <th>Teacher</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Monday</td>
+          <td>Physics</td>
+          <td>10:00 - 12:00</td>
+          <td>Mr Titus Mwiti</td>
+        </tr>
+        <tr>
+          <td>Tuesday</td>
+          <td>English</td>
+          <td>14:00 - 16:00</td>
+          <td>Mrs Serah Chege</td>
+        </tr>
+        <tr>
+          <td>Wednesday</td>
+          <td>Chemistry</td>
+          <td>08:00 - 10:00</td>
+          <td>Mrs Serah Chege</td>
+        </tr>
+        <tr>
+          <td>Thursday</td>
+          <td>Business</td>
+          <td>15:00 - 17:00</td>
+          <td>Mr George Wamalwa</td>
+        </tr>
+        <tr>
+          <td>Friday</td>
+          <td>Biology</td>
+          <td>09:00 - 11:00</td>
+          <td>Miss Noreen Mwambela</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- Media Section -->
+  <section>
+    <h2>An Image</h2>
+    
+    <figure>
+      <img src="viewlaptop.jpg" alt="Sample Image" width="400" />
+      <figcaption>An image of someone using a laptop</figcaption>
+    </figure>
+
+    </section>
+
+  <!-- Form Section -->
+  <main>
+    <h2>Class Registration Form</h2>
+    <form action="#" method="post" autocomplete="on">
+      <fieldset>
+        <legend>Personal Information</legend>
+
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" name="fname" required minlength="2" placeholder="Jennifer" /><br /><br />
+
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname" name="lname" required placeholder="Mwaura" /><br /><br />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required placeholder="jennifermwaura@gmail.com" /><br /><br />
+
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" placeholder="0786234134" /><br /><br />
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required /><br /><br />
+
+        <label for="subject">Subject:</label>
+          <select id="subject" name="subject" required>
+            <option value="" disabled selected>Select a subject</option>
+            <option value="physics">Physics</option>
+            <option value="english">English</option>
+            <option value="chemistry">Chemistry</option>
+            <option value="business">Business</option>
+            <option value="biology">Biology</option>
+          </select><br /><br />
+
+      </fieldset>
+
+      <button type="submit">Submit</button>
+      <button type="reset">Reset</button>
+    </form>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 My HTML5 Assignment</p>
+  </footer>
+  
+</body>
+</html>
